@@ -24,7 +24,6 @@
 
 ## board.php (수정)
 [
-<?php
 
             $connect = mysql_connect("localhost","LKY","1234");    // DB 연결
             mysql_select_db("lky_db", $connect);         // DB 선택
@@ -76,6 +75,4 @@
             }
 
             echo("</ul>");
-
-            ?>
 ]
