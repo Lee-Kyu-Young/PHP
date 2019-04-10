@@ -45,11 +45,11 @@
                 echo("                   
                     <li>
 
-                        <h1>$row[title]</h1>  
+                        <h1>$row[title]</h1>  // 제목 출력
                         
-                        $row[contents]        
+                        $row[contents]        // 내용 출력
                         
-                        <img src=$row[image_url] alt=\"demo image\"/>
+                        <img src=$row[image_url] alt=\"demo image\"/> //이미지 출력
 
                     </li>        
 
